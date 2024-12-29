@@ -50,6 +50,7 @@ def convert_df(df, current_datetime, hours_from=24, hours_to=48):
     return df_filtered
 
 if __name__=="__main__":
+    exit()
 ## for deveopment purposes
 
     # import streamlit as st
