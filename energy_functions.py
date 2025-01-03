@@ -10,7 +10,6 @@ Day-ahead prices in Finland are becoming more and more volatile - in 2024 it was
 data for 2023.
 """
 
-import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 
@@ -20,11 +19,6 @@ def read_dayahead_prices(fname):
 
     return df
 
-
-def optimize_energy(input_value):
-    # Example logic: minimize cost given constraints
-    result = np.sqrt(input_value) * 1  # Replace with your actual logic
-    return result
 
 def convert_df(df, current_datetime, hours_from=24, hours_to=48):
     """
